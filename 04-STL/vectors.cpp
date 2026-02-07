@@ -115,7 +115,7 @@ using namespace std;
 int main(){
 
     int count = 0, x; 
-    vector<int>vec(9);
+    vector<int>vec(10);
     cout<<"Enter your array:"<<endl;
     for(int i=0; i<9; i++){
         cin>>vec[i];
@@ -125,7 +125,7 @@ int main(){
     cin>>x;
 
     for(int i=0; i<9; i++){
-        if(vec[i]>x) count++;
+        if(vec[i]==x) count++;
     }
 
     cout<<"Number of times "<<x<<" appears is = "<<count;
