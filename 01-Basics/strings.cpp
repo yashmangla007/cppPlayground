@@ -57,10 +57,12 @@ int main(){
 
 #include<iostream>
 #include<string.h>
-using namespace std;
+// using namespace std;
 
 int main(){
 
+    int a1 = 2;
+    std::cout<<a1;
 
     return 0;
 }
