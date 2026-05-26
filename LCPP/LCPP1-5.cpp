@@ -64,3 +64,52 @@ int main(){
 
     return 0;
 }
+
+
+
+
+                          /***********1.6 — Uninitialized variables and undefined behavior**********/
+
+/*
+                                                            *Theory*
+-> Initialized = The object is given a known value at the point of definition.
+-> Assignment = The object is given a known value beyond the point of definition.
+-> Uninitialized = The object has not been given a known value yet.
+
+*/
+
+
+                          /***********1.7 — Keywords and naming identifiers**********/
+
+/*
+                                                            *Theory*
+-> Rules for naming the identifiers:
+    1. It is conventional in C++ that variable names should begin with a lowercase letter.
+       If the variable name is a single word or acronym, the whole thing should be written in lowercase letters.
+    2. Avoid naming your identifiers starting with an underscore. Although syntactically legal, these names are 
+       typically reserved for OS, library, and/or compiler use.
+    3. The name of your identifiers should make clear what the value they are holding means (particularly if the units aren’t obvious).s
+
+*/
+
+#include <iostream>
+
+int main(){
+
+    // Types of Indetifier naming: 
+
+    int my_variable_name;   // conventional (separated by underscores/snake_case)
+    int my_function_name(); // conventional (separated by underscores/snake_case)
+    int myVariableName;   // conventional (intercapped/camelCase)
+    int myFunctionName(); // conventional (intercapped/camelCase)
+
+    /*
+    int my variable name;   // invalid (whitespace not allowed)
+    int my function name(); // invalid (whitespace not allowed)
+    */
+
+    int MyVariableName;   // unconventional (should start with lower case letter)
+    int MyFunctionName(); // unconventional (should start with lower case letter)
+
+    return 0;
+}
