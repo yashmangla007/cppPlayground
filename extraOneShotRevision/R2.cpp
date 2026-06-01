@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(){
-
+/*
     // --------------------------------------Practicing Switch Case:----------------------------------------
     int month;
 
@@ -28,6 +28,15 @@ int main(){
         std::cout<<"Its not Jan Feb or March!";
         break;
     }
+*/
+    //----------------------------------------Ternary Operator------------------------------------------
+
+    int div3;
+    std::cout<<"\nEnter the number: ";
+    std::cin>>div3;
+
+    div3 % 3 == 0 ? std::cout<<"Number is divisible by 3" : std::cout<<"Number is not divisible by 3";
+
 
     return 0;
 }
