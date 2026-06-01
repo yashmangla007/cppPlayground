@@ -6,7 +6,7 @@ int main(){
     //New Datatypes:
     bool statement1 = true;
     bool statement2 = false;
-/*
+// /*
     //Strings:
     std::string name = "Yash";
     std::cout<<"Hello "<<name;
@@ -17,7 +17,7 @@ int main(){
     std::cout<<"\nYour major is "<<major;
     std::cout<<"\nRemaining in Buffer: ";
     std::cout<<major;
-*/
+// */
     //Alowing whitespaces - {enter} as inputs
     std::string fullname;
     std::cout<<"\nEnter your full name: ";
