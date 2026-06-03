@@ -14,6 +14,8 @@ NULL POINTERS:
 // dereferencing nullptr or pointing to free memory
 // this will cause undefined behavior
 
+*NOTE*: When we pass an array to the function, it automatically acts as a pointer.
+
 */
 
 #include<iostream>
