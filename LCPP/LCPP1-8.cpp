@@ -7,6 +7,11 @@
                                                             *Theory*
 
 -> Witespaces Charac: characters used for formatting purposes. Space, tabs, and newlines.
+-> For controlling the number of decimal places shown in floating/double var types. 
+   (Will show all next decimals in the dictated format , post once defined)
+    -> add : #include<iomanip>
+    -> use: std::setprecision(--NoOfDIGITSNeeeded--) => for =3 ==> 112.3 = 112 | 12.34 = 12.3
+    -> std::fixed ==> Tells that those digits are post the decimal and not overall digits.
                                                             
 */
 
@@ -45,10 +50,18 @@
 */
 
 #include<iostream>
+#include<iomanip>   //for using the precision of floating type data
 
 int main(){
 
     int c{ (2 * 3) + 4 };   // initialize variable c with computed value 10
     std::cout<<c;
+    
+    //checking the precision thing:
+    double test1 (124.2483);
+    double test2 (235.634322);
+    std::cout<<"\ntest1 = "<<std::setprecision(3)<<std::fixed<<test1; //displays 1.25 (self rounded off)
+    std::cout<<"\ntest2 = "<<test2; // continues using the same formating of floaters without rementioning
+    
     return 0;
-}
+  }
