@@ -1,3 +1,5 @@
-); // used to take innput until ENTER is pressed.
-    std::cout<<"\nYour full name is: ";
-    std::cout<<fullname;
+
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout<<ar1[i]<<"\t";
+    }
