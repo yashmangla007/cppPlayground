@@ -59,7 +59,7 @@ void explainVector(){
 
     cout << v[0] << "" << v.at(0);
 
-    cout << v.back() << " ";        //Points at loaction of: v = {12,43,55, *63*}
+    cout << v.back() << " ";        //Points at VALUE of: v = {12,43,55, *63*} i.e. = 63
 
 //===========================================================================================================
 //                                      Vector Element accesing and Iterators

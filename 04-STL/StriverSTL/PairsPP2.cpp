@@ -8,7 +8,7 @@ For each student:
 Store the data using pairs.
 Print the roll number of the student having the highest marks.
 If multiple students have the same highest marks, print the student with the smaller roll number.
-=============================================== Solution -1 ===============================================*/
+=============================================== Solution -2 ===============================================*/
 
 #include <iostream>
 using namespace std;
