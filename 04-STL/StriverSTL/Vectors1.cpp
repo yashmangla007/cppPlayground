@@ -6,6 +6,8 @@
 ----------------------------------------------------- VECTORS ----------------------------------------------------
 
 -> Vector is dynamic in nature. Use like an array when size of element is unknown.
+-> Internally, a singly linked list is maintained
+
 
 CODE:           vector <_dataType_> _name_ ; 
                                             Refer to OneNote Notebook for Theory Explainnation.
